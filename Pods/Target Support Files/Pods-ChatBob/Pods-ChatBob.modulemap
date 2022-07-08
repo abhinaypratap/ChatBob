@@ -1,0 +1,6 @@
+framework module Pods_ChatBob {
+  umbrella header "Pods-ChatBob-umbrella.h"
+
+  export *
+  module * { export * }
+}

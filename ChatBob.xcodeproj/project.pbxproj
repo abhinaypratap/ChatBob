@@ -17,6 +17,11 @@
 		3B9E63CF2878266C00417C4B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E63CE2878266C00417C4B /* LoginViewController.swift */; };
 		3B9E63D12878268400417C4B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E63D02878268400417C4B /* ChatViewController.swift */; };
 		3B9E63D3287826F000417C4B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E63D2287826F000417C4B /* Constants.swift */; };
+		3B9E63D528784A1000417C4B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B9E63D428784A1000417C4B /* GoogleService-Info.plist */; };
+		3B9E63D72878657A00417C4B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E63D62878657A00417C4B /* Message.swift */; };
+		3B9E63DA287867F500417C4B /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E63D8287867F500417C4B /* MessageCell.swift */; };
+		3B9E63DB287867F500417C4B /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9E63D9287867F500417C4B /* MessageCell.xib */; };
+		4F3B66E5660400D02B737165 /* Pods_ChatBob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CEF677B5A4EA25E828CC93 /* Pods_ChatBob.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,13 @@
 		3B9E63CE2878266C00417C4B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3B9E63D02878268400417C4B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		3B9E63D2287826F000417C4B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3B9E63D428784A1000417C4B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3B9E63D62878657A00417C4B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		3B9E63D8287867F500417C4B /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		3B9E63D9287867F500417C4B /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		7C99BDBA9F20C212FFF52D94 /* Pods-ChatBob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBob.release.xcconfig"; path = "Target Support Files/Pods-ChatBob/Pods-ChatBob.release.xcconfig"; sourceTree = "<group>"; };
+		E0EFD58F0F3C52F7F5D4EE1C /* Pods-ChatBob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBob.debug.xcconfig"; path = "Target Support Files/Pods-ChatBob/Pods-ChatBob.debug.xcconfig"; sourceTree = "<group>"; };
+		F0CEF677B5A4EA25E828CC93 /* Pods_ChatBob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatBob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3B66E5660400D02B737165 /* Pods_ChatBob.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +63,8 @@
 			children = (
 				3B9E63B42877095D00417C4B /* ChatBob */,
 				3B9E63B32877095D00417C4B /* Products */,
+				F7EAD3317A91B624D65C7E09 /* Pods */,
+				7A3DD39923AAB738287227A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +88,7 @@
 				3B9E63BE2877095F00417C4B /* Assets.xcassets */,
 				3B9E63C02877095F00417C4B /* LaunchScreen.storyboard */,
 				3B9E63C32877095F00417C4B /* Info.plist */,
+				3B9E63D428784A1000417C4B /* GoogleService-Info.plist */,
 			);
 			path = ChatBob;
 			sourceTree = "<group>";
@@ -80,6 +96,7 @@
 		3B9E63C928770AF400417C4B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3B9E63D62878657A00417C4B /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -88,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				3B9E63BB2877095D00417C4B /* Main.storyboard */,
+				3B9E63D8287867F500417C4B /* MessageCell.swift */,
+				3B9E63D9287867F500417C4B /* MessageCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -103,6 +122,23 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		7A3DD39923AAB738287227A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0CEF677B5A4EA25E828CC93 /* Pods_ChatBob.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7EAD3317A91B624D65C7E09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0EFD58F0F3C52F7F5D4EE1C /* Pods-ChatBob.debug.xcconfig */,
+				7C99BDBA9F20C212FFF52D94 /* Pods-ChatBob.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B9E63C62877095F00417C4B /* Build configuration list for PBXNativeTarget "ChatBob" */;
 			buildPhases = (
+				ED3A9B35DBEE11F30FAB9F34 /* [CP] Check Pods Manifest.lock */,
 				3B9E63AE2877095D00417C4B /* Sources */,
 				3B9E63AF2877095D00417C4B /* Frameworks */,
 				3B9E63B02877095D00417C4B /* Resources */,
+				BC96C2ECE739FCE0E225D7C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,13 +199,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B9E63DB287867F500417C4B /* MessageCell.xib in Resources */,
 				3B9E63C22877095F00417C4B /* LaunchScreen.storyboard in Resources */,
+				3B9E63D528784A1000417C4B /* GoogleService-Info.plist in Resources */,
 				3B9E63BF2877095F00417C4B /* Assets.xcassets in Resources */,
 				3B9E63BD2877095D00417C4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC96C2ECE739FCE0E225D7C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatBob/Pods-ChatBob-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatBob/Pods-ChatBob-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChatBob/Pods-ChatBob-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED3A9B35DBEE11F30FAB9F34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatBob-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3B9E63AE2877095D00417C4B /* Sources */ = {
@@ -179,8 +261,10 @@
 				3B9E63B82877095D00417C4B /* SceneDelegate.swift in Sources */,
 				3B9E63CF2878266C00417C4B /* LoginViewController.swift in Sources */,
 				3B9E63D3287826F000417C4B /* Constants.swift in Sources */,
+				3B9E63D72878657A00417C4B /* Message.swift in Sources */,
 				3B9E63D12878268400417C4B /* ChatViewController.swift in Sources */,
 				3B9E63CD2878264E00417C4B /* RegisterViewController.swift in Sources */,
+				3B9E63DA287867F500417C4B /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +406,7 @@
 		};
 		3B9E63C72877095F00417C4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0EFD58F0F3C52F7F5D4EE1C /* Pods-ChatBob.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -335,6 +420,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -350,6 +436,7 @@
 		};
 		3B9E63C82877095F00417C4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C99BDBA9F20C212FFF52D94 /* Pods-ChatBob.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -363,6 +450,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
