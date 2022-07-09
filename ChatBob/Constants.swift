@@ -12,7 +12,12 @@ struct K {
     static let cell1 = "ChatCell"
     static let cellNibName = "MessageCell"
     
-    struct FStore {
+    // Colors
+    static let currentUserCellColor = "CurrentUserCellColor"
+    static let otherUserCellColor = "OtherUserCellColor"
+    
+    
+    struct FireStore {
         static let collectionName = "messages"
         static let senderField = "sender"
         static let bodyField = "body"
