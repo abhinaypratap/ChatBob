@@ -81,11 +81,11 @@
 		3B9E63B42877095D00417C4B /* ChatBob */ = {
 			isa = PBXGroup;
 			children = (
-				3B9E63B52877095D00417C4B /* AppDelegate.swift */,
-				3B9E63B72877095D00417C4B /* SceneDelegate.swift */,
 				3B9E63C928770AF400417C4B /* Model */,
 				3B9E63CA28770AFF00417C4B /* View */,
 				3B9E63CB28770B0F00417C4B /* Controller */,
+				3B9E63B52877095D00417C4B /* AppDelegate.swift */,
+				3B9E63B72877095D00417C4B /* SceneDelegate.swift */,
 				3B9E63D2287826F000417C4B /* Constants.swift */,
 				3B9E63BE2877095F00417C4B /* Assets.xcassets */,
 				3B9E63C02877095F00417C4B /* LaunchScreen.storyboard */,
