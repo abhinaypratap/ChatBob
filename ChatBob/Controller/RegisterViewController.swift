@@ -14,6 +14,7 @@ class RegisterViewController: UIViewController {
     
     @IBAction func registerPressed(_ sender: UIButton) {
         if let email = emailTextField.text, let password = passwordTextField.text {
+//            let trimmedEmail = email.trimmingCharacters(in: .whitespaces)
             Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
                 if let error = error {
                     print(error)
