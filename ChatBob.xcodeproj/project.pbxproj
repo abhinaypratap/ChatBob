@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B6D4B1C28A7E090001EA838 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3B6D4B1B28A7E090001EA838 /* README.md */; };
 		3B9E63B62877095D00417C4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E63B52877095D00417C4B /* AppDelegate.swift */; };
 		3B9E63B82877095D00417C4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E63B72877095D00417C4B /* SceneDelegate.swift */; };
 		3B9E63BA2877095D00417C4B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E63B92877095D00417C4B /* WelcomeViewController.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B6D4B1B28A7E090001EA838 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		3B9E63B22877095D00417C4B /* ChatBob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9E63B52877095D00417C4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B9E63B72877095D00417C4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				3B9E63C02877095F00417C4B /* LaunchScreen.storyboard */,
 				3B9E63C32877095F00417C4B /* Info.plist */,
 				3B9E63D428784A1000417C4B /* GoogleService-Info.plist */,
+				3B6D4B1B28A7E090001EA838 /* README.md */,
 			);
 			path = ChatBob;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B6D4B1C28A7E090001EA838 /* README.md in Resources */,
 				3B9E63DB287867F500417C4B /* MessageCell.xib in Resources */,
 				3B9E63C22877095F00417C4B /* LaunchScreen.storyboard in Resources */,
 				3B9E63D528784A1000417C4B /* GoogleService-Info.plist in Resources */,
